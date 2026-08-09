@@ -46,8 +46,12 @@ export default function Footer() {
 
         <div className="flex items-center gap-2 bg-white/5 border border-white/10 px-4 py-2 rounded-full">
           <Eye size={16} className="text-orange-400" />
-          <span className="text-sm font-medium text-white">
-            Total Profile Visits: {visits !== null ? visits : '...'}
+          <span className="text-sm font-medium text-white inline-flex gap-1 items-center justify-center">
+            Total Profile Visits: 
+            <span>
+              <img className="h-4" src="https://count.getloli.com/@iampiyush-dev?name=iampiyush-dev&theme=booru-rfck&padding=7&offset=0&align=top&scale=1.2&pixelated=0&darkmode=0"/>
+            </span>
+            {/* visits !== null ? visits : '...' */}
           </span>
         </div>
 
